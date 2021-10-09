@@ -1,9 +1,15 @@
-module.exports = {
+const colors = require('tailwindcss/colors')
+
+  module.exports = {
     theme: {
       colors: {
-        'orange': '#E96125',
-        'indigo': '#5c6ac4',
-        'indigo-dark': '#202e78',
+        transparent: 'transparent',
+        current: 'currentColor',
+        orange: {
+          light: '#85d7ff',
+          DEFAULT: '#1fb6ff',
+          dark: '#009eeb',
+        },
       }
     }
   }
