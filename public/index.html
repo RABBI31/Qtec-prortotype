@@ -11,29 +11,31 @@
 <body>
     <div class="">
         <div>
-            <!-- header -->
-            <div class="flex grid md:grid-cols-2 w-full h-6 text-xs bg-red-100 justify-between">
+            <!--  upper header -->
+            <div class="flex grid grid-cols-2 md:w-full h-6 text-xs bg-red-100 md:justify-between ">
                 <div class="flex">
-                    <img class="w-10 h-8 md:ml-28 ml-2  mt-1" src="images/01.png" alt="vector smart object" />
+                    <img class="w-10 h-8 md:ml-28  mt-1" src="images/01.png" alt="vector smart object" />
                     <a class="text-red-400 font-bold mt-1 text-xs text-opacity-90" href="#">
                         <h1>For more delivery +01</h1>
                     </a>
                 </div>
-                <div class=" md:ml-80 ml-5 mt-1 justify-end">
-                    <a class="md:ml-36 font-bold mt-3 text-xs text-opacity-90 " href="#">
+                <div class="md:ml-80 ml-8 mt-1 justify-start">
+                    <a class="font-bold mt-3 text-xs text-opacity-90" href="#">
                         <h1 class="hello text-red-400">How to order <span>।</span> FAQs</h1>
                     </a>
 
                 </div>
             </div>
         </div>
+        <!--Body-->
         <div class="grid md:grid-cols-3 grid-cols-1 mt-10">
             <div class='col-span-1 '>
                 <div class="flex ">
                     <img src='images/sidebar/Left align.png' alt="" class="w-4 h-3 md:ml-32 ml-5 mt-5" />
                     <img src='images/sidebar/Q grocery Logo copy 1.png' alt="" class="w-16 h-16 ml-4" />
                 </div>
-                <div class="shadow-r-md md:ml-32 ml-5 md:mb-0 mb-5"> 
+                <!--Sidebar-->
+                <div class="shadow-r-md md:ml-32 ml-5 md:mb-0 mb-5 md:block hidden"> 
                     <a href="#">
                         <div class="flex">
                             <img src='images/sidebar/Milk packet.png' alt="" class="w-4 h-4 mt-5" />
@@ -134,8 +136,9 @@
                     </a>
                 </div>
             </div>
+            <!--Navbar-->
             <div class="col-span-2 mt-4 md:w-full w-full">
-                <div class="md:flex  md:justify-between">
+                <div class="md:flex md:justify-between">
                     <nav class="font-bold justify-start text-xs ml-3 Uppercase">
                         <a class="text-red-400" href="#">
                             Home
@@ -153,6 +156,7 @@
                             Track order
                         </a>
                     </nav>
+                    <!--Profile-->
                     <div class="flex md:justify-around md:mr-28 md:ml-0 ml-3 md:mt-0 mt-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-4 mt-1 text-red-400" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
@@ -162,12 +166,13 @@
                         <h1 class="ml-3 text-red-400 font-bold">
                             khilkhet
                         </h1>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-4 mt-1" fill="none" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-4 mt-1 ml-2" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                         </svg>
                     </div>
                 </div>
+                <!--SearchBar-->
                 <div class="flex">
                     <input class=" border-2 border-red-400 rounded-l-full md:w-2/3 w-full ml-3 h-10 mt-5 " type="text"
                         placeholder="What are you looking for?" />
@@ -179,6 +184,7 @@
                         </svg>
                     </button>
                 </div>
+                <!--CheckOut Part-->
                 <div class="col-span-2 grid md:grid-cols-2 grid-cols-1">
                     <div class="col-span-1">
                         <h1 class=" ml-5 mt-5 font-bold">
@@ -256,7 +262,7 @@
 
                             </div>
                         </div>
-                        <div class="text-center mt-5 ml-5 px-3 text-xs">
+                        <div class="text-center mt-5 ml-5 px-1 text-xs">
                             <button class="flex bg-red-400 text-white font-bold border-2 rounded-full md:w-1/2 content-center py-3 px-3 ml-20 bg-red-200">
                                 Checkout Total  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 text-white font-bold mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 11V9a2 2 0 00-2-2m2 4v4a2 2 0 104 0v-1m-4-3H9m2 0h4m6 1a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -277,6 +283,7 @@
                                 </a>.</p>
                         </div>
                     </div>
+                    <!--Checkout Product-->
                     <div class="ml-3 mt-5 md:w-4/6  shadow-md ">
                         <h1 class="bg-red-400 text-white px-2 py-3 text-md">
                             My Cart (6 Items)
